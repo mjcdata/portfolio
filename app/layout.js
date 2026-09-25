@@ -1,3 +1,5 @@
+// app/layout.js
+
 import localFont from "next/font/local";
 import "./globals.css";
 import MaxWidthWrapper from './components/max-width-wrapper';
@@ -18,8 +20,13 @@ const geistMono = localFont({
 export const metadata = {
   title: 'Malcolm Connor | Data Analyst',
   description: 'Data analytics portfolio of Malcolm Connor',
+
   icons: {
     icon: '/images/mtablogo.png',
+  },
+
+  openGraph: {
+    images: ['/images/share.png'],
   },
 };
 
