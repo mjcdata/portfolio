@@ -18,6 +18,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
+  metadataBase: new URL('https://malcolmjconnor.com'),
+  
   title: 'Malcolm Connor | Data Analyst',
   description: 'Data analytics portfolio of Malcolm Connor',
 
