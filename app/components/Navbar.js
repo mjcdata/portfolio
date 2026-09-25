@@ -26,7 +26,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className= "ml-auto font-bold hover:text-lime-500 transition-transform hover:scale-105 duration-300">
         <h1>
-          <a href='#'>{'{malcolmjconnor}'}</a>
+          <a href='/#'>{'{malcolmjconnor}'}</a>
         </h1>
       </div>
     </div>

@@ -12,7 +12,7 @@ export default function Projects() {
          <ProjectItems
           title="Healthcare Claims Intelligence"
           description="An interactive Tableau dashboard analyzing synthetic healthcare claims data to identify cost drivers, compare in-network and out-of-network costs, and evaluate opportunities to reduce allowed cost through network utilization shifts."
-          link="https://public.tableau.com/views/HealthcareClaimsIntelligence/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+          link="/projects/healthcare-claims"
           imgSrc="/images/healthcare.png"
           altText="Healthcare Claims Intelligence Tableau Dashboard"
         />
