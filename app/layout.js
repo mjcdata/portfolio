@@ -18,7 +18,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: 'Malcolm Connor - Data Analyst',
+  title: 'Malcolm Connor | Data Analyst',
   description: 'Data analytics portfolio of Malcolm Connor',
 
   icons: {
@@ -26,6 +26,7 @@ export const metadata = {
   },
 
   openGraph: {
+    title: 'Malcolm Connor | Portfolio',
     images: ['/images/share.png'],
   },
 };
