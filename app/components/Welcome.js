@@ -15,7 +15,7 @@ export default function Welcome() {
         </Link>
       </h2>
       <p className="mt-2 mb-4 text-center text-gray-500">
-        Scroll down to see my work
+        Data. Insights. Better Decisions.
       </p>
     </section>
   );
