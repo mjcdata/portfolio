@@ -26,7 +26,7 @@ export const metadata = {
   },
 
   openGraph: {
-    title: 'Malcolm Connor | Portfolio',
+    title: 'Malcolm Connor Portfolio',
     images: ['/images/share.png'],
   },
 };
