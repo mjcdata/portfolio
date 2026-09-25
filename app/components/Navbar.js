@@ -14,7 +14,7 @@ const Navbar = () => {
          {['Home', 'Projects', 'About', 'Contact'].map((item) => (
           <div key={item}>
             <a
-              href={`#${item.toLowerCase()}`}
+              href={`/#${item.toLowerCase()}`}
               className="text-white hover:text-lime-500"
             >
               {item}
@@ -42,7 +42,7 @@ const Navbar = () => {
       <div className="flex flex-col items-center pt-8 text-xl">
         {['Home', 'Projects', 'About', 'Contact'].map((item) => (
           <div key={item} className="mt-4">
-            <a href={`#${item.toLowerCase()}`} className="text-white hover:text-lime-500"
+            <a href={`/#${item.toLowerCase()}`} className="text-white hover:text-lime-500"
             onClick={() => setIsOpen(false)}>
               {item}
               </a>
