@@ -20,7 +20,7 @@ export default function Projects() {
         <ProjectItems
           title="Retail Revenue Intelligence"
           description="An interactive Tableau dashboard analyzing retail revenue performance, customer behavior, product trends, returns, and international market performance using the UCI Online Retail II dataset."
-          link="https://public.tableau.com/views/RetailRevenueIntelligence/RetailRevenueIntelligenceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+          link="/projects/retail-revenue"
           imgSrc="/images/revenue.png"
           altText="Retail Revenue Intelligence Dashboard"
         />
