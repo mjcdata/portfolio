@@ -11,6 +11,7 @@
 
 .dashboard *, .dashboard *::before, .dashboard *::after { box-sizing: border-box; }
 .dashboard h1, .dashboard h2, .dashboard h3 { line-height: 1.25; }
+.banner { display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; }
 .intro { max-width: 64rem; margin: 0 auto 2rem; }
 .intro h1 { margin-bottom: .4rem; }
 .intro p { max-width: 55rem; }
