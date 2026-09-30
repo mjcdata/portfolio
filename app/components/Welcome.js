@@ -18,8 +18,8 @@ export default function Welcome() {
         Data. Insights. Better Decisions.
       </p>
       <Link
-        href="#about"
-        aria-label="Scroll to About section"
+        href="#projects"
+        aria-label="Scroll to Projects section"
         className="mt-4 inline-flex items-center justify-center text-gray-500 hover:text-lime-500 animate-bounce transition-colors duration-300"
       >
         <svg
