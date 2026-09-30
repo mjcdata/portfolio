@@ -1,6 +1,4 @@
 'use client';
-import { faPython, faJsSquare, faLinux } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import AboutItems from './AboutItems';
 
 export default function About() {
@@ -50,25 +48,25 @@ export default function About() {
           description="Experienced in building business intelligence dashboards and reports to analyze performance and support decision-making."
         />
         <AboutItems
-          icon={faPython}
+          iconName="logos:python"
           iconClass="text-slate-900"
           title="Python"
           description="Proficient in Python for data analysis and visualization."
         />
         <AboutItems
-          icon={faJsSquare}
+          iconName="logos:javascript"
           iconClass="text-slate-900"
           title="JavaScript"
           description="Experience using front end libraries like React and Next for web development."
         />
         <AboutItems
-          icon={faDatabase}
+          iconName="mdi:database"
           iconClass="text-slate-900"
           title="SQL"
           description="Proficient in creating complex queries to extract insights from databases."
         />
         <AboutItems
-          icon={faLinux}
+          iconName="logos:linux-tux"
           iconClass="text-slate-900"
           title="Linux"
           description="Proficient in using Linux for development and other tech hobbies like Cybersecurity and IoT."
