@@ -188,9 +188,20 @@ function SourceCard({ source }) {
 export default function AIEcosystemDashboard() {
   return (
     <div className={styles.dashboard}>
+      <img
+        src="/images/ai-eco.png"
+        alt="AI Ecosystem Intelligence — Agentic Analytics Orchestration"
+        className={styles.banner}
+      />
       <header className={styles.intro}>
+        <br></br>
+        <br></br>
         <h1>AI Ecosystem Intelligence</h1>
-        <p>Four public snapshots describe different populations and measures. OpenRouter traffic, SWE-bench coding performance, LangChain professional use cases, and Pew U.S.-adult ever-use estimates are separate views, not a cross-source comparison.</p>
+        <p>
+          <strong>
+            This is an experimental project built by a team of AI agents. The agents helped plan, build, review, and manage the project through GitHub, while I provided flexible instructions and overall direction.
+          </strong>
+        </p>
       </header>
       <main>
         <h2>Checked-in sources</h2>
