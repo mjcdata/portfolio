@@ -61,7 +61,7 @@ export default function About() {
         />
         <AboutItems
           iconName="mdi:database"
-          iconClass="text-slate-900"
+          iconClass="text-[#3776AB]"
           title="SQL"
           description="Proficient in creating complex queries to extract insights from databases."
         />
