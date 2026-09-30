@@ -1,6 +1,6 @@
 'use client';
 import { faPython, faJsSquare, faLinux, faHtml5, faCss3Alt } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'; // Import from the solid icons package
+import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import AboutItems from './AboutItems';
 
 export default function About() {
@@ -72,6 +72,18 @@ export default function About() {
           iconClass="text-slate-900"
           title="CSS"
           description="Experienced in designing visually appealing websites."
+        />
+        <AboutItems
+          iconName="logos:tableau-icon"
+          iconClass="text-slate-900"
+          title="Tableau"
+          description="Experienced in building interactive dashboards and visualizations to communicate business insights."
+        />
+        <AboutItems
+          iconName="logos:microsoft-power-bi"
+          iconClass="text-slate-900"
+          title="Power BI"
+          description="Experienced in building business intelligence dashboards and reports to analyze performance and support decision-making."
         />
       </div>
     </section>
