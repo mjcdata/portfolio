@@ -1,0 +1,32 @@
+{
+  "source": "LangChain State of Agent Engineering",
+  "source_url": "https://www.langchain.com/state-of-agent-engineering",
+  "report_published": "2026-06-12",
+  "survey": {
+    "population": "1,340 professionals, including engineers, product managers, business leaders, and executives",
+    "field_start": "2025-11-18",
+    "field_end": "2025-12-02",
+    "response_count": 1340,
+    "selection_rule": "Respondents could select only one primary use case."
+  },
+  "metric": "share of survey respondents selecting each explicitly published primary agent use case",
+  "values": [
+    {
+      "use_case": "Customer service",
+      "percentage": 26.5
+    },
+    {
+      "use_case": "Research & data analysis",
+      "percentage": 24.4
+    },
+    {
+      "use_case": "Internal workflow automation",
+      "percentage": 18
+    }
+  ],
+  "limitations": [
+    "Survey context only; respondents are not OpenRouter users.",
+    "Values are not agent-specific and must not be assigned to individual ranked apps or benchmark systems.",
+    "Only percentages explicitly stated in the report text are included."
+  ]
+}

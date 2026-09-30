@@ -1,0 +1,93 @@
+{
+  "source": "SWE-bench official leaderboard JSON",
+  "source_url": "https://github.com/SWE-bench/swe-bench.github.io/blob/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json",
+  "upstream_revision": "193160a463a435d05cf44a1fa9dc5eac832113c3",
+  "retrieved_at": "2026-09-28",
+  "benchmark": "Verified",
+  "selection": "First five Verified.results records in the pinned leaderboard source order; partial sample, not the full leaderboard or all entries tied at the fifth score.",
+  "metric": "resolved is percent of SWE-bench Verified issues resolved, in percentage points; checked is the source verification value, distinct from Verified benchmark membership.",
+  "results": [
+    {
+      "folder": "20251205_sonar-foundation-agent_claude-opus-4-5",
+      "name": "Sonar Foundation Agent + Claude 4.5 Opus",
+      "agent": "Sonar Foundation Agent",
+      "model_display": "Claude 4.5 Opus",
+      "date": "2025-12-05",
+      "resolved": 79.2,
+      "checked": false,
+      "tags": [
+        "Model: claude-opus-4-5",
+        "Org: Sonar",
+        "System: Attempts - 1"
+      ],
+      "source_url": "https://github.com/SWE-bench/swe-bench.github.io/blob/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json",
+      "submission_url": "https://github.com/SWE-bench/experiments/tree/main/evaluation/verified/20251205_sonar-foundation-agent_claude-opus-4-5"
+    },
+    {
+      "folder": "20251215_livesweagent_claude-opus-4-5",
+      "name": "live-SWE-agent + Claude 4.5 Opus medium (20251101)",
+      "agent": "live-SWE-agent",
+      "model_display": "Claude 4.5 Opus",
+      "date": "2025-12-15",
+      "resolved": 79.2,
+      "checked": false,
+      "tags": [
+        "Model: claude-opus-4-5-20251101",
+        "Org: UIUC",
+        "System: Attempts - 1"
+      ],
+      "source_url": "https://github.com/SWE-bench/swe-bench.github.io/blob/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json",
+      "submission_url": "https://github.com/SWE-bench/experiments/tree/main/evaluation/verified/20251215_livesweagent_claude-opus-4-5"
+    },
+    {
+      "folder": "20250928_trae_doubao_seed_code",
+      "name": "TRAE + Doubao-Seed-Code",
+      "agent": "TRAE",
+      "model_display": "Doubao-Seed-Code",
+      "date": "2025-09-28",
+      "resolved": 78.8,
+      "checked": false,
+      "tags": [
+        "Model: Doubao-Seed-Code",
+        "Model: Doubao-Seed-1.6",
+        "Org: ByteDance",
+        "System: Attempts - 2+"
+      ],
+      "source_url": "https://github.com/SWE-bench/swe-bench.github.io/blob/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json",
+      "submission_url": "https://github.com/SWE-bench/experiments/tree/main/evaluation/verified/20250928_trae_doubao_seed_code"
+    },
+    {
+      "folder": "20251120_livesweagent_gemini-3-pro-preview",
+      "name": "live-SWE-agent + Gemini 3 Pro Preview (2025-11-18)",
+      "agent": "live-SWE-agent",
+      "model_display": "Gemini 3 Pro Preview",
+      "date": "2025-11-20",
+      "resolved": 77.4,
+      "checked": "false (See README.md for info on how to get your results verified)",
+      "tags": [
+        "Model: gemini-3-pro-preview",
+        "Org: UIUC",
+        "System: Attempts - 1"
+      ],
+      "source_url": "https://github.com/SWE-bench/swe-bench.github.io/blob/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json",
+      "submission_url": "https://github.com/SWE-bench/experiments/tree/main/evaluation/verified/20251120_livesweagent_gemini-3-pro-preview"
+    },
+    {
+      "folder": "20250804_epam-ai-run-claude-4-sonnet",
+      "name": "EPAM AI/Run Developer Agent v20250719 + Claude 4 Sonnet",
+      "agent": "EPAM AI/Run Developer Agent",
+      "model_display": "Claude 4 Sonnet",
+      "date": "2025-08-04",
+      "resolved": 76.8,
+      "checked": false,
+      "tags": [
+        "Model: claude-sonnet-4-20250514",
+        "Org: EPAM Systems, Inc.",
+        "System: Attempts - 2+"
+      ],
+      "source_url": "https://github.com/SWE-bench/swe-bench.github.io/blob/193160a463a435d05cf44a1fa9dc5eac832113c3/data/leaderboards.json",
+      "submission_url": "https://github.com/SWE-bench/experiments/tree/main/evaluation/verified/20250804_epam-ai-run-claude-4-sonnet"
+    }
+  ]
+}
+

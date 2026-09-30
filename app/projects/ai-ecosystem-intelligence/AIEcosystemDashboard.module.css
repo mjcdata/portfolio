@@ -1,0 +1,45 @@
+.dashboard {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  color: #16333c;
+  background: #f5f8f8;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  padding: clamp(1rem, 3vw, 2rem);
+}
+
+.dashboard *, .dashboard *::before, .dashboard *::after { box-sizing: border-box; }
+.dashboard h1, .dashboard h2, .dashboard h3 { line-height: 1.25; }
+.intro { max-width: 64rem; margin: 0 auto 2rem; }
+.intro h1 { margin-bottom: .4rem; }
+.intro p { max-width: 55rem; }
+.dashboard main, .footer { max-width: 80rem; margin: auto; }
+.cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 35rem), 1fr)); }
+.card { min-width: 0; padding: 1.25rem; background: white; border: 1px solid #b9cdd1; border-radius: .7rem; }
+.card h2 { margin-top: 0; }
+.card h3 { margin-bottom: .2rem; }
+.meta { font-size: .93rem; color: #3a525b; }
+.ready { font-weight: 700; color: #075e43; }
+.problem { font-weight: 700; color: #8a3516; }
+.dashboard a { color: #075875; }
+.dashboard a:focus-visible, .dashboard select:focus-visible, .tableScroll:focus-visible {
+  outline: 3px solid #c06c12;
+  outline-offset: 3px;
+}
+.dashboard select { font: inherit; max-width: 100%; padding: .35rem; margin: .6rem 0; }
+.tableScroll { max-width: 100%; overflow-x: auto; }
+.dashboard table { width: 100%; min-width: 30rem; border-collapse: collapse; font-variant-numeric: tabular-nums; margin-top: 1rem; }
+.dashboard caption { text-align: left; font-weight: 700; padding-bottom: .6rem; }
+.dashboard th, .dashboard td { text-align: left; padding: .55rem .45rem; border-bottom: 1px solid #d7e2e4; }
+.chart { display: grid; gap: .7rem; margin-top: 1rem; }
+.barRow { display: grid; grid-template-columns: minmax(7rem, 1.4fr) minmax(8rem, 3fr) auto; gap: .65rem; align-items: center; }
+.track { height: .8rem; background: #e4edef; border-radius: 999px; overflow: hidden; }
+.bar { height: 100%; background: currentColor; }
+.footer { padding-top: 1.5rem; font-size: .9rem; }
+
+@media (max-width: 36rem) {
+  .card { padding: 1rem; }
+  .barRow { grid-template-columns: minmax(0, 1fr) auto; }
+  .track { grid-column: 1 / -1; }
+}

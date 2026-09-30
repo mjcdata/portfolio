@@ -1,0 +1,54 @@
+{
+  "source": "Pew Research Center",
+  "report_title": "Americans and AI 2026: Chatbots, Smart Devices and Views on Impact",
+  "source_url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/",
+  "chart_url": "https://www.pewresearch.org/chart/americans-report-using-chatgpt-far-more-than-other-chatbots/",
+  "topline_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/06/PI_2026.06.17_Americans-and-AI_TOPLINE.pdf",
+  "questionnaire_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/06/PI_2026.06.17_Americans-and-AI_Questionnaire.pdf",
+  "methodology_url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-methodology/",
+  "population": "U.S. adults ages 18 and older; American Trends Panel Wave 187, weighted to represent the noninstitutionalized U.S. adult population",
+  "survey_start_date": "2026-02-17",
+  "survey_end_date": "2026-02-23",
+  "retrieved_at": "2026-09-28",
+  "metric": "Self-reported ever use of each named AI chatbot among U.S. adults",
+  "unit": "percent",
+  "total_survey_respondents": 5119,
+  "items": [
+    {
+      "chatbot": "ChatGPT",
+      "ever_use_percent": 44,
+      "question_form": "all respondents"
+    },
+    {
+      "chatbot": "Gemini",
+      "ever_use_percent": 24,
+      "question_form": "form 2"
+    },
+    {
+      "chatbot": "Copilot",
+      "ever_use_percent": 17,
+      "question_form": "form 1"
+    },
+    {
+      "chatbot": "Meta AI",
+      "ever_use_percent": 14,
+      "question_form": "form 2"
+    },
+    {
+      "chatbot": "Grok",
+      "ever_use_percent": 8,
+      "question_form": "form 2"
+    },
+    {
+      "chatbot": "Claude",
+      "ever_use_percent": 6,
+      "question_form": "form 1"
+    },
+    {
+      "chatbot": "Character.ai",
+      "ever_use_percent": 3,
+      "question_form": "form 1"
+    }
+  ],
+  "limitations": "Survey estimates, not active users, traffic, market share, or global usage. Different brand items used split questionnaire forms; respondents could report using more than one chatbot, so percentages must not be summed."
+}

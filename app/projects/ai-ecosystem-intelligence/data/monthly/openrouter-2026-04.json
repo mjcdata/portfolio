@@ -1,0 +1,95 @@
+{
+  "source": "OpenRouter App Rankings Data API",
+  "endpoint": "https://openrouter.ai/api/v1/datasets/app-rankings",
+  "query": {
+    "sort": "popular",
+    "category": "coding",
+    "subcategory": "cli-agent",
+    "start_date": "2026-04-01",
+    "end_date": "2026-04-30",
+    "limit": 10,
+    "offset": 0
+  },
+  "response": {
+    "data": [
+      {
+        "rank": 1,
+        "app_id": 2725608,
+        "app_name": "OpenClaw",
+        "total_tokens": "12790687786759",
+        "total_requests": 230188548
+      },
+      {
+        "rank": 2,
+        "app_id": 2262242,
+        "app_name": "Kilo Code",
+        "total_tokens": "5958967645605",
+        "total_requests": 105104625
+      },
+      {
+        "rank": 3,
+        "app_id": 3067167,
+        "app_name": "Hermes Agent",
+        "total_tokens": "5293636631906",
+        "total_requests": 98745279
+      },
+      {
+        "rank": 4,
+        "app_id": 2627404,
+        "app_name": "Claude Code",
+        "total_tokens": "3896795125238",
+        "total_requests": 51375063
+      },
+      {
+        "rank": 5,
+        "app_id": 190604,
+        "app_name": "Cline",
+        "total_tokens": "915604031381",
+        "total_requests": 10443422
+      },
+      {
+        "rank": 6,
+        "app_id": 2853275,
+        "app_name": "pi",
+        "total_tokens": "167379351934",
+        "total_requests": 2943150
+      },
+      {
+        "rank": 7,
+        "app_id": 189563,
+        "app_name": "OpenHands",
+        "total_tokens": "152246371383",
+        "total_requests": 4370192
+      },
+      {
+        "rank": 8,
+        "app_id": 2354934,
+        "app_name": "Qwen Code",
+        "total_tokens": "73147481138",
+        "total_requests": 1116446
+      },
+      {
+        "rank": 9,
+        "app_id": 2236657,
+        "app_name": "Goose",
+        "total_tokens": "44197473596",
+        "total_requests": 2152765
+      },
+      {
+        "rank": 10,
+        "app_id": 1275184,
+        "app_name": "Codebuff",
+        "total_tokens": "28198303252",
+        "total_requests": 856576
+      }
+    ],
+    "meta": {
+      "as_of": "2026-09-28T20:19:21.986Z",
+      "version": "v1",
+      "start_date": "2026-04-01",
+      "end_date": "2026-04-30"
+    }
+  },
+  "attribution": "Source: OpenRouter (openrouter.ai/rankings), as of 2026-09-28T20:19:21.986Z.",
+  "license": "CC BY 4.0"
+}

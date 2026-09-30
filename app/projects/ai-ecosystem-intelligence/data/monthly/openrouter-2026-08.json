@@ -1,0 +1,95 @@
+{
+  "source": "OpenRouter App Rankings Data API",
+  "endpoint": "https://openrouter.ai/api/v1/datasets/app-rankings",
+  "query": {
+    "sort": "popular",
+    "category": "coding",
+    "subcategory": "cli-agent",
+    "start_date": "2026-08-01",
+    "end_date": "2026-08-31",
+    "limit": 10,
+    "offset": 0
+  },
+  "response": {
+    "data": [
+      {
+        "rank": 1,
+        "app_id": 3067167,
+        "app_name": "Hermes Agent",
+        "total_tokens": "49792321779172",
+        "total_requests": 498200170
+      },
+      {
+        "rank": 2,
+        "app_id": 2627404,
+        "app_name": "Claude Code",
+        "total_tokens": "13545639530733",
+        "total_requests": 134181710
+      },
+      {
+        "rank": 3,
+        "app_id": 2262242,
+        "app_name": "Kilo Code",
+        "total_tokens": "9350111517928",
+        "total_requests": 114811412
+      },
+      {
+        "rank": 4,
+        "app_id": 190604,
+        "app_name": "Cline",
+        "total_tokens": "7406724995145",
+        "total_requests": 69069096
+      },
+      {
+        "rank": 5,
+        "app_id": 2853275,
+        "app_name": "pi",
+        "total_tokens": "5418881480863",
+        "total_requests": 67347998
+      },
+      {
+        "rank": 6,
+        "app_id": 2725608,
+        "app_name": "OpenClaw",
+        "total_tokens": "4668138165499",
+        "total_requests": 77004647
+      },
+      {
+        "rank": 7,
+        "app_id": 3682314,
+        "app_name": "omp",
+        "total_tokens": "4168455922673",
+        "total_requests": 29790859
+      },
+      {
+        "rank": 8,
+        "app_id": 2668297,
+        "app_name": "Codex",
+        "total_tokens": "2375598078254",
+        "total_requests": 35255805
+      },
+      {
+        "rank": 9,
+        "app_id": 2237546,
+        "app_name": "Cursor",
+        "total_tokens": "915635436473",
+        "total_requests": 6967388
+      },
+      {
+        "rank": 10,
+        "app_id": 3909382,
+        "app_name": "Command Code",
+        "total_tokens": "716827924927",
+        "total_requests": 6663041
+      }
+    ],
+    "meta": {
+      "as_of": "2026-09-28T20:19:24.508Z",
+      "version": "v1",
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-31"
+    }
+  },
+  "attribution": "Source: OpenRouter (openrouter.ai/rankings), as of 2026-09-28T20:19:24.508Z.",
+  "license": "CC BY 4.0"
+}
