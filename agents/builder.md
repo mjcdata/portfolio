@@ -30,3 +30,10 @@ Shared layout, navigation, global styles, metadata, and reusable components dese
 If a check cannot be run, say so. Never turn "not checked" into "passed."
 
 Record what changed, evidence from verification, and any limitations. Stop at the approved task boundary.
+
+## Documentation responsibilities
+Before substantial implementation, confirm the current approved scope in `documentation/PROJECT_PLAN.md` and current state in `documentation/STATUS.md`.
+
+After meaningful implementation, update the durable operational state as appropriate and record significant work, verification evidence, failures, blockers, and handoffs in `documentation/ACTIVITY_LOG.md`.
+
+Do not rewrite proposal or plan approval states. Do not put project-specific deliverables in the agent operational documentation when they belong with the relevant project.
