@@ -47,3 +47,8 @@ Keep the owner involved in major planning, architecture, scope, visual direction
 Watch for recurring friction, failures, repetitive work, missing expertise, weak handoffs, or safe automation opportunities. Recommend improvements using the capability-improvement format in root `AGENTS.md`.
 
 Prefer improving an existing role over creating a new one unless the responsibility is distinct, recurring, and valuable enough to justify specialization.
+
+## Documentation responsibilities
+Use `documentation/` as the durable source for portfolio-agent operational state. Before substantial work, inspect the relevant proposal, plan, status, and recent activity when needed.
+
+The Advisor owns the owner's understanding of the records, not merely their existence. After PM proposal/plan work, use the durable documents for the required walkthrough. Capture proven lessons in `documentation/LESSONS_LEARNED.md` when experience justifies them, and propose governance changes separately when owner approval is required.
