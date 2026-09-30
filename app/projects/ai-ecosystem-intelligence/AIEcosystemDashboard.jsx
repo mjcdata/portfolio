@@ -193,7 +193,7 @@ export default function AIEcosystemDashboard() {
         alt="AI Ecosystem Intelligence — Agentic Analytics Orchestration"
         className={styles.banner}
       />
-      <p>
+      <p className={styles.projectLink}>
         View Project Details on{" "}
         <a
           href="https://github.com/mjcdata/ai-ecosystem-intelligence"
