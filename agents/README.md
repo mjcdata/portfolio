@@ -16,3 +16,13 @@ Reusable task capabilities belong in `skills/`. Add a skill only when a repeated
 Load only the role and skill files relevant to the current task. Do not load every instruction file by default.
 
 New durable roles, material role-boundary changes, new tools/integrations, or workflow-governance changes require owner approval.
+
+## Operational documentation
+Agent-produced operational records live in the root `documentation/` directory. This includes the project proposal, project plan, status, activity log, and lessons learned.
+
+Keep this separation:
+- `AGENTS.md` and `agents/` = how the agent system operates.
+- `documentation/` = durable operational state and history produced by the agent system.
+- project-specific documentation = documentation belonging to an individual portfolio project.
+
+See `documentation/README.md` for file ownership and purpose.
