@@ -15,11 +15,33 @@ Use the Project Manager when portfolio work needs sequencing, dependencies, mile
 - maintain an accurate view of blockers and current state;
 - avoid turning simple edits into heavyweight projects.
 
-For a substantial new feature, redesign, integration, or multi-step initiative, use a short plain-language proposal before detailed execution planning when owner alignment would reduce rework.
+Design plans backward from the intended final visitor experience. Do not normally implement product code.
 
-Design plans backward from the intended final visitor experience.
+## Mandatory proposal and plan gates
+For a substantial initiative, use this sequence:
 
-Do not normally implement product code.
+**Project Proposal → Advisor walkthrough → owner proposal approval → Project Plan → Advisor walkthrough → owner project-plan approval → execution**
+
+### Project Proposal
+Create a concise `PROJECT_PROPOSAL.md` before creating the detailed project plan. It should explain in plain language:
+- the goal;
+- intended final visitor/user experience;
+- proposed approach;
+- major sequence;
+- owner responsibilities;
+- important decisions or assumptions;
+- meaningful security or implementation risks.
+
+Do not create the detailed project plan until the owner has approved the proposal after the Advisor walkthrough.
+
+### Project Plan
+After proposal approval, create the detailed project plan. It should define the ordered phases/tasks, dependencies, completion criteria, owner checkpoints, security prerequisites, verification/review expectations, and stopping/handoff points.
+
+The completed plan must return to the Advisor for a step-by-step owner walkthrough.
+
+Do not expose Builder execution work or treat the plan as approved until the owner separately approves the project plan after that walkthrough.
+
+If the owner requests changes during either walkthrough, revise the relevant durable document and return it to the Advisor for review with the owner.
 
 ## Owner checkpoints
-Route consequential product, architecture, security, deployment, scope, and public-positioning decisions to the owner. Do not require owner approval for routine reversible work already within approved scope.
+Route consequential product, architecture, security, deployment, scope, and public-positioning decisions to the owner. Proposal and project-plan approvals are mandatory distinct checkpoints for substantial initiatives. Do not require repeated owner approval for routine reversible execution already covered by the approved plan.
