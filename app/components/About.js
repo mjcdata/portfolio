@@ -1,5 +1,5 @@
 'use client';
-import { faPython, faJsSquare, faLinux, faHtml5, faCss3Alt } from '@fortawesome/free-brands-svg-icons';
+import { faPython, faJsSquare, faLinux } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import AboutItems from './AboutItems';
 
@@ -11,7 +11,7 @@ export default function About() {
         I am a data professional who enjoys using technology to solve problems
         and make information easier to understand. I have experience working
         with data across healthcare and financial services, using tools like
-        SQL, Python, Power BI, Tableau, and Excel to analyze data, improve
+        <strong> SQL</strong>, <strong>Python</strong>, <strong>Power BI</strong>, <strong>Tableau</strong>, and <strong>Excel</strong> to analyze data, improve
         processes, and support better decisions.
     </p>
 
@@ -38,6 +38,18 @@ export default function About() {
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-24">
         <AboutItems
+          iconName="logos:tableau-icon"
+          iconClass="text-slate-900"
+          title="Tableau"
+          description="Experienced in building interactive dashboards and visualizations to communicate business insights."
+        />
+        <AboutItems
+          iconName="logos:microsoft-power-bi"
+          iconClass="text-slate-900"
+          title="Power BI"
+          description="Experienced in building business intelligence dashboards and reports to analyze performance and support decision-making."
+        />
+        <AboutItems
           icon={faPython}
           iconClass="text-slate-900"
           title="Python"
@@ -60,30 +72,6 @@ export default function About() {
           iconClass="text-slate-900"
           title="Linux"
           description="Proficient in using Linux for development and other tech hobbies like Cybersecurity and IoT."
-        />
-        <AboutItems
-          icon={faHtml5}
-          iconClass="text-slate-900"
-          title="HTML"
-          description="Experienced in building responsive web pages."
-        />
-        <AboutItems
-          icon={faCss3Alt}
-          iconClass="text-slate-900"
-          title="CSS"
-          description="Experienced in designing visually appealing websites."
-        />
-        <AboutItems
-          iconName="logos:tableau-icon"
-          iconClass="text-slate-900"
-          title="Tableau"
-          description="Experienced in building interactive dashboards and visualizations to communicate business insights."
-        />
-        <AboutItems
-          iconName="logos:microsoft-power-bi"
-          iconClass="text-slate-900"
-          title="Power BI"
-          description="Experienced in building business intelligence dashboards and reports to analyze performance and support decision-making."
         />
       </div>
     </section>
