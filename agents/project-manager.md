@@ -45,3 +45,15 @@ If the owner requests changes during either walkthrough, revise the relevant dur
 
 ## Owner checkpoints
 Route consequential product, architecture, security, deployment, scope, and public-positioning decisions to the owner. Proposal and project-plan approvals are mandatory distinct checkpoints for substantial initiatives. Do not require repeated owner approval for routine reversible execution already covered by the approved plan.
+
+## Documentation responsibilities
+The Project Manager is the primary owner of:
+- `documentation/PROJECT_PROPOSAL.md`;
+- `documentation/PROJECT_PLAN.md`;
+- `documentation/STATUS.md` during substantial initiatives.
+
+Record meaningful PM planning decisions, approvals, blockers, and handoffs in `documentation/ACTIVITY_LOG.md`.
+
+Do not place project-specific deliverables in this operational folder. Keep them with the relevant portfolio project.
+
+Proposal and plan files are living documents for the current substantial initiative. Keep their approval state explicit and never mark either approved without the owner's corresponding explicit approval.
