@@ -93,3 +93,17 @@ Documentation should help both future agents and the owner understand and mainta
 
 ## Changing this guide
 Changes to root governance, approval boundaries, autonomy, handoffs, security rules, or capability governance require explicit owner approval. Once approved, update the durable instructions so future sessions inherit the improvement.
+
+## Documentation
+Operational records produced by the agent system live under `documentation/`:
+- `PROJECT_PROPOSAL.md` — current substantial-initiative proposal and proposal approval state;
+- `PROJECT_PLAN.md` — detailed plan and plan approval/execution state;
+- `STATUS.md` — concise current initiative, phase, blockers, and next action;
+- `ACTIVITY_LOG.md` — chronological meaningful work, decisions, handoffs, verification, failures, and approvals;
+- `LESSONS_LEARNED.md` — proven lessons from actual portfolio work.
+
+Agent behavior belongs in `AGENTS.md` and `agents/`. Do not mix operational records into agent instruction files.
+
+Portfolio-project deliverables such as data dictionaries, dashboard documentation, data-quality logs, and project-specific technical documentation should remain with the relevant project, not in the portfolio agent operational documentation.
+
+Keep these documents useful to both future agents and the owner. Never place secrets, credentials, tokens, or sensitive private information in them.
