@@ -13,18 +13,18 @@ This repository contains the source code for my personal portfolio website, wher
 
 ## About Me
 
-I am a data and analytics professional with experience using data to solve business problems, improve processes, and support decision-making.
+I am a data and analytics professional with experience using data to solve business problems, improve processes, and support decision making.
 
 My work includes data analysis, business intelligence, data visualization, data quality, and project delivery. I use tools such as SQL, Python, Tableau, and Power BI to transform data into insights and communicate findings through analysis and interactive dashboards.
 
-This portfolio highlights projects that demonstrate my approach to solving real-world business problems with data.
+This portfolio highlights projects that demonstrate my approach to solving real world business problems with data.
 
 ## Technologies Used
 
 This portfolio website is built using:
 
 - **Next.js** - React framework used to build the portfolio
-- **Tailwind CSS** - Utility-first CSS framework used for styling and responsive design
+- **Tailwind CSS** - CSS framework used for styling and responsive design
 - **Iconify** - Icon library used throughout the website
 
 My data analytics projects also demonstrate experience with technologies including:
@@ -51,7 +51,7 @@ The analysis identified outpatient procedures as the largest allowed cost catego
 
 ### Retail Revenue Intelligence
 
-An end-to-end retail analytics project analyzing transactional e-commerce data to understand revenue performance, customer purchasing behavior, product performance, returns, and international sales.
+An end-to-end retail analytics project analyzing transactional ecommerce data to understand revenue performance, customer purchasing behavior, product performance, returns, and international sales.
 
 The project includes data profiling, cleaning, business analysis, documentation, and an interactive Tableau dashboard designed to communicate key revenue insights.
 

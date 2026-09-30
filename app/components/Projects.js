@@ -17,6 +17,16 @@ export default function Projects() {
           altText="Healthcare Claims Intelligence Tableau Dashboard"
         />
 
+
+        <ProjectItems
+          title="AI Ecosystem Intelligence"
+          description="An experimental analytics project built by a team of AI agents that planned, developed, and reviewed the work through GitHub, with flexible instructions and overall direction provided by me. The dashboard explores AI adoption, coding-agent usage, use cases, and benchmark performance across multiple public data sources."
+          link="/projects/ai-ecosystem-intelligence"
+          imgSrc="/images/ai-eco-project.png"
+          altText="AI Ecosystem Intelligence"
+        />
+
+        
         <ProjectItems
           title="Retail Revenue Intelligence"
           description="An interactive Tableau dashboard analyzing retail revenue performance, customer behavior, product trends, returns, and international market performance using the UCI Online Retail II dataset."
@@ -25,13 +35,6 @@ export default function Projects() {
           altText="Retail Revenue Intelligence Dashboard"
         />
 
-        <ProjectItems
-          title="UMSL Basketball Analysis"
-          description="An interactive streamlit dashboard designed for the UMSL basketball team, enabling coaches and analysts to explore player performance metrics through dynamic scatterplots. This tool provides actionable insights for optimizing game strategies."
-          link="https://umsl-bball.streamlit.app"
-          imgSrc="/images/umsl-bball.png"
-          altText="UMSL Basketball Analysis"
-        />
 
         </div>
     </section>
