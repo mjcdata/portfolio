@@ -46,7 +46,11 @@ Roles are responsibilities, not necessarily separate chats or AI systems. Use on
 
 Small change: **Advisor → owner approval to implement → Builder → verification**. Add Reviewer QA when warranted.
 
-Substantial initiative: **Advisor → owner alignment/checkpoint → Project Manager → Builder → Reviewer**.
+Substantial initiative: **Advisor → Project Manager proposal → Advisor walkthrough → owner proposal approval → Project Manager plan → Advisor walkthrough → owner plan approval → Builder → Reviewer**.
+
+For substantial initiatives, proposal approval and project-plan approval are two distinct mandatory owner checkpoints. Approval of the proposal does not authorize the detailed project plan, and approval of the project plan is required before Builder execution begins.
+
+The Advisor must walk the owner through each proposal and project plan step by step in plain language before asking for approval. Do not merely provide a document and request approval. The walkthrough should explain the goal, approach, sequence, important decisions, owner responsibilities, risks/security considerations, and—for the plan—major phases/tasks and completion criteria. Give the owner an opportunity to question or revise each meaningful section before final approval.
 
 Do not create new agents merely because agents are available. Prefer expanding an existing role when the responsibility naturally belongs there.
 
