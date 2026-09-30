@@ -48,20 +48,17 @@ The project includes data generation, data profiling, data quality assessment, c
 
 The analysis identified outpatient procedures as the largest allowed cost category and evaluated the cost impact of shifting eligible out-of-network utilization toward in-network providers.
 
+### AI Ecosystem Intelligence
+
+An experimental analytics project built through an AI-agent workflow, with overall direction and approval provided by me. The project explores AI adoption, coding-agent usage, use cases, and benchmark performance across multiple public data sources.
+
+The portfolio includes an interactive dashboard presenting the project's verified data snapshots and analysis.
 
 ### Retail Revenue Intelligence
 
 An end-to-end retail analytics project analyzing transactional ecommerce data to understand revenue performance, customer purchasing behavior, product performance, returns, and international sales.
 
 The project includes data profiling, cleaning, business analysis, documentation, and an interactive Tableau dashboard designed to communicate key revenue insights.
-
-
-### UMSL Basketball Analysis
-
-An interactive basketball analytics dashboard created to explore player performance through metrics such as three-point percentage and playing time.
-
-
-
 
 ## Contact
 
