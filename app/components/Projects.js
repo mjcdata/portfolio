@@ -35,6 +35,14 @@ export default function Projects() {
           altText="Retail Revenue Intelligence Dashboard"
         />
 
+        <ProjectItems
+          title="NBA Player Similarity"
+          description="Select a player from the current NBA season and discover their five closest historical player matches."
+          link="https://nba-player-similarity.vercel.app/"
+          imgSrc="/images/nba-player-similarity-portfolio.jpg"
+          altText="NBA Player Similarity app showing Jayson Tatum and historical player comparisons"
+        />
+
 
         </div>
     </section>
