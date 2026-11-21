@@ -13,7 +13,7 @@ export default function Projects() {
           title="NBA Player Similarity"
           description="Select a player from the current NBA season and discover their five closest historical player matches."
           link="https://nba-player-similarity.vercel.app/"
-          imgSrc="/images/nba-player-similarity-portfolio.png"
+          imgSrc="/images/nba.png"
           altText="NBA Player Similarity project cover"
         />
 
