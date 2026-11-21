@@ -6,10 +6,10 @@ export default function About() {
     <section id="about" className="mb-8 p-6 bg-white rounded-lg shadow-md pt-14">
       <h2 className="text-3xl font-semibold text-gray-700 mb-4 border-b-2 border-lime-500 pb-2">About</h2>
       <p className="mt-2 text-black leading-relaxed">
-        I am a data and technology professional who enjoys using data, <strong>AI</strong>, and
+        I am a data and technology professional who enjoys using data, AI, and
         technology to solve problems and make information easier to understand.
         I have experience working across healthcare and financial services, using
-        tools like <strong>SQL</strong>, <strong>Python</strong>, <strong>Power BI</strong>, <strong>Tableau</strong>, and AI agents to analyze data, improve
+        tools like <strong>SQL</strong>, <strong>Python</strong>, <strong>Power BI</strong>, <strong>Tableau</strong>, and <strong>AI agents</strong> to analyze data, improve
         processes, and build useful solutions.
     </p>
 
