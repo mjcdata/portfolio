@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="mb-8 p-6 bg-white rounded-lg shadow-md pt-14">
       <h2 className="text-3xl font-semibold text-gray-700 mb-4 border-b-2 border-lime-500 pb-2">About</h2>
       <p className="mt-2 text-black leading-relaxed">
-        I am a data and technology professional who enjoys using data, AI, and
+        I am a data and technology professional who enjoys using data, <strong>AI</strong>, and
         technology to solve problems and make information easier to understand.
         I have experience working across healthcare and financial services, using
         tools like <strong>SQL</strong>, <strong>Python</strong>, <strong>Power BI</strong>, <strong>Tableau</strong>, and AI agents to analyze data, improve
@@ -38,6 +38,12 @@ export default function About() {
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-24">
         <AboutItems
+          iconName="lucide:bot"
+          iconClass="text-slate-900"
+          title="AI Agents"
+          description="Experience building AI agent workflows and context systems that enable AI to work effectively with tools, data, and business processes."
+        />
+        <AboutItems
           iconName="logos:tableau-icon"
           iconClass="text-slate-900"
           title="Tableau"
@@ -66,12 +72,6 @@ export default function About() {
           iconClass="text-[#3776AB]"
           title="SQL"
           description="Proficient in creating complex queries to extract insights from databases."
-        />
-        <AboutItems
-          iconName="lucide:bot"
-          iconClass="text-slate-900"
-          title="AI Agents"
-          description="Experience building AI agent workflows and context systems that enable AI to work effectively with tools, data, and business processes."
         />
         <AboutItems
           iconName="logos:linux-tux"
