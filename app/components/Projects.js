@@ -9,7 +9,15 @@ export default function Projects() {
       <h2 className="text-3xl font-semibold text-black mb-4 border-b-2 border-black pb-2">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-4"> 
          
-         <ProjectItems
+        <ProjectItems
+          title="NBA Player Similarity"
+          description="Select a player from the current NBA season and discover their five closest historical player matches."
+          link="https://nba-player-similarity.vercel.app/"
+          imgSrc="/images/nba-player-similarity-portfolio.png"
+          altText="NBA Player Similarity project cover"
+        />
+
+        <ProjectItems
           title="Healthcare Claims Intelligence"
           description="An interactive Tableau dashboard analyzing synthetic healthcare claims data to identify cost drivers, compare in-network and out-of-network costs, and evaluate opportunities to reduce allowed cost through network utilization shifts."
           link="/projects/healthcare-claims"
@@ -33,14 +41,6 @@ export default function Projects() {
           link="/projects/retail-revenue"
           imgSrc="/images/revenue.png"
           altText="Retail Revenue Intelligence Dashboard"
-        />
-
-        <ProjectItems
-          title="NBA Player Similarity"
-          description="Select a player from the current NBA season and discover their five closest historical player matches."
-          link="https://nba-player-similarity.vercel.app/"
-          imgSrc="/images/nba-player-similarity-portfolio.jpg"
-          altText="NBA Player Similarity app showing Jayson Tatum and historical player comparisons"
         />
 
 
