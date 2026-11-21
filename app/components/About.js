@@ -38,7 +38,7 @@ export default function About() {
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-24">
         <AboutItems
-          iconName="lucide:bot"
+          iconName="noto:robot"
           iconClass="text-slate-900"
           title="AI Agents"
           description="Experience building AI agent workflows and context systems that enable AI to work effectively with tools, data, and business processes."
