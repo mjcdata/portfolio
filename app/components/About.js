@@ -6,11 +6,11 @@ export default function About() {
     <section id="about" className="mb-8 p-6 bg-white rounded-lg shadow-md pt-14">
       <h2 className="text-3xl font-semibold text-gray-700 mb-4 border-b-2 border-lime-500 pb-2">About</h2>
       <p className="mt-2 text-black leading-relaxed">
-        I am a data professional who enjoys using technology to solve problems
-        and make information easier to understand. I have experience working
-        with data across healthcare and financial services, using tools like
-        <strong> SQL</strong>, <strong>Python</strong>, <strong>Power BI</strong>, <strong>Tableau</strong>, and <strong>Excel</strong> to analyze data, improve
-        processes, and support better decisions.
+        I am a data and technology professional who enjoys using data, AI, and
+        technology to solve problems and make information easier to understand.
+        I have experience working across healthcare and financial services, using
+        tools like <strong>SQL</strong>, <strong>Python</strong>, <strong>Power BI</strong>, <strong>Tableau</strong>, and AI agents to analyze data, improve
+        processes, and build useful solutions.
     </p>
 
     <p className="mt-4 text-black leading-relaxed">
@@ -22,11 +22,13 @@ export default function About() {
     </p>
 
     <p className="mt-4 text-black leading-relaxed">
-        I am also someone who enjoys learning and building new things. Technology
-        is always changing, and I like finding new ways to use it in my work.
-        Whether I am learning a new tool, building a data project, or improving
-        something I have already created, I am always looking for ways to grow
-        my skills and create better solutions.
+        I am also someone who enjoys learning and building new things. More
+        recently, I have been focused on building with AI agents, designing
+        context systems, and exploring new ways for AI to work effectively with
+        information, tools, and business processes. Whether I am learning a new
+        technology, building a project, or improving something I have already
+        created, I am always looking for ways to grow my skills and create better
+        solutions.
     </p>
 
     <p className="mt-4 text-black leading-relaxed">
@@ -64,6 +66,12 @@ export default function About() {
           iconClass="text-[#3776AB]"
           title="SQL"
           description="Proficient in creating complex queries to extract insights from databases."
+        />
+        <AboutItems
+          iconName="lucide:bot"
+          iconClass="text-slate-900"
+          title="AI Agents"
+          description="Experience building AI agent workflows and context systems that enable AI to work effectively with tools, data, and business processes."
         />
         <AboutItems
           iconName="logos:linux-tux"
