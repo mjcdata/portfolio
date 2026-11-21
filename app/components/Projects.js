@@ -11,7 +11,7 @@ export default function Projects() {
          
         <ProjectItems
           title="NBA Player Similarity"
-          description="Select a player from the current NBA season and discover their five closest historical player matches."
+          description="Select a player from the current NBA season and discover their five closest historical player matches using Euclidean distance."
           link="https://nba-player-similarity.vercel.app/"
           imgSrc="/images/nba.png"
           altText="NBA Player Similarity project cover"
